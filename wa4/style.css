@@ -1,0 +1,47 @@
+body{
+    background-color: white;
+    align-content: center;
+}
+
+h1{
+    margin: 50px;
+}
+nav{
+    display: flex;
+    background-color: gray;
+    align-content: space-around;
+}
+div{
+    height: 20px;
+    width: 50px;
+    font-size: 16px;
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+    color: black;
+    border: solid 1px gray;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color .5s, color .5s, border .5s;
+}
+a {
+    color: gray;
+    transition: color .5s;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+a:visited{
+    text-decoration: none;
+}
+div:hover{
+    background-color: gray;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+img{
+    max-width: 50%;
+    margin: center;
+}
