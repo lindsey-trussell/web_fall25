@@ -1,0 +1,23 @@
+body{
+    max-width: 100%;
+}
+
+nav{
+ display: flex;
+}
+
+@media (max-width: 450px){
+    body{
+        max-width: 100%;
+    }
+
+}
+
+@media (min-width: 450px) and (max-width: 800px){
+
+}
+
+@media (min-width : 1200px){
+
+}
+
